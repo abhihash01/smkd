@@ -42,3 +42,6 @@ def index():
 def pagenotfound():
 	return render_template("level5.html")
 
+if __name__=='__main__':
+   app.run(debug=True) 
+

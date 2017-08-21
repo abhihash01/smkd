@@ -1,0 +1,118 @@
+.p1
+{
+	font-size: 20px;
+	font-family: Georgia;
+	font-weight: bold;
+	padding-top: 5px;
+}
+body
+{
+  background: url("../images/back.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+footer{
+  padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+}
+
+.footer{
+  width: 100%;
+  /*position: absolute;
+  bottom: 0;*/
+  color: white;
+}
+
+
+header{
+	background-color: rgb(25,25,25);
+}
+h2 {
+  position:relative;
+    display:inline-block;
+    background-color: rgb(25,25,25);
+  background-image: url("../images/bsmoke1.png");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration: 80s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease;
+  -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-animation-name: masked-animation;
+  -moz-animation-duration: 80s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease;
+  -o-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-animation-name: masked-animation;
+  -o-animation-duration: 80s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: ease;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-size: 4vw;
+  opacity: 0.3;
+  font-family: 'Open Sans', sans-serif;
+
+}
+@-webkit-keyframes masked-animation {
+  0% {
+    background-position: left bottom;
+  }
+  100% {
+    background-position: right bottom;
+  }
+}
+@-moz-keyframes masked-animation {
+  0% {
+    background-position: left bottom;
+  }
+  100% {
+    background-position: right bottom;
+  }
+}
+@-o-keyframes masked-animation {
+  0% {
+    background-position: left bottom;
+  }
+  100% {
+    background-position: right bottom;
+  }
+}
+
+.pic{
+	position:relative;
+    display:inline-block;
+    height: 50px;
+    margin-top: 50px;
+  max-height:50%;
+  max-width:50%;
+  transition: all .2s ease-in-out;
+}
+#play{
+  width: 250px;
+  height: 250px;
+}
+.pic:hover{
+  border-radius: 10px;
+  
+transform: scale(1.3);
+}
+
+img{
+  vertical-align: middle;
+}

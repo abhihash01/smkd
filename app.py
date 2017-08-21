@@ -22,7 +22,7 @@ def lvl3():
 	return redirect('/level3')
 
 @app.route('/level3')
-def level3:
+def level3():
         return render_template("level3.html")
 
 @app.route('/level3/<path>')
@@ -30,11 +30,11 @@ def validateLevel3(path = ""):
 	if path == 'mist':
 		return redirect('/sweethome')
 
-@app.route('/sweethome)
+@app.route('/sweethome')
 def level4():
 	return redirect("level4.html")
 
-@app.route('/sweethome/index")
+@app.route('/sweethome/index')
 def index():
 	return redirect('/pagenotfound')
 

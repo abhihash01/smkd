@@ -2,6 +2,10 @@ from flask import Flask, render_template, request, session, redirect, make_respo
 import datetime
 
 app = Flask(__name__)
+@app.route('/home')
+@app.route('/')
+def main():
+		return render_template('home.html')
 
 #levels start 
 @app.route('/level1')
